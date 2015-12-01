@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     //创建tableView
-    UITableView *tableView = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStyleGrouped];
+    UITableView *tableView = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
     
     [self.view addSubview:tableView];
     //设置数据源
